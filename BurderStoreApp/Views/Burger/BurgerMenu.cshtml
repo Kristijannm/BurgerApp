@@ -1,0 +1,35 @@
+﻿@model List<Burger>
+
+@{
+    ViewData["Title"] = "Burgers Menu";
+}
+
+<div class="container">
+    
+    <div class="row mb-3 " >
+        <div class="col d-flex justify-content-between align-items-center">
+            <h2 class="mb-0">Burgers Menu</h2>
+            <a asp-controller="Burger" asp-action="CreateBurger" class="btn btn-success btn-lg">Add New Burger</a>
+        </div>
+    </div>
+  
+    <div class="row">
+        @foreach (var burger in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card h-100">
+                    @* <img src="burger-image-placeholder.jpg" class="card-img-top" alt="Burger Image"> *@
+                    <div class="card-body">
+                        <h5 class="card-title">@burger.Name</h5>
+                        <p class="card-text">Price: MKD @burger.Price</p>
+                        <p class="card-text">Vegetarian: @(burger.IsVegetarian ? "Yes" : "No")</p>
+                        <p class="card-text">Vegan: @(burger.IsVegan ? "Yes" : "No")</p>
+                        <p class="card-text">Includes Fries: @(burger.HasFries ? "Yes" : "No")</p>
+                        <a asp-controller="Burger" asp-action="EditBurger" asp-route-id="@burger.Id" class="btn btn-primary">Edit</a>
+                        <a asp-controller="Burger" asp-action="DeleteBurgerById" asp-route-id="@burger.Id" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this burger?');">Delete</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

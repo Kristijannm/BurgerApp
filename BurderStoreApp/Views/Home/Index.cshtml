@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <header class="d-flex justify-content-between align-items-center py-3">
+        <a asp-controller="Burger" asp-action="BurgerMenu" style="width:40%" class="btn btn-primary">Burgers Menu</a>
+        <a asp-controller="Order" asp-action="Orders" style="width:40%" class="btn btn-primary">See Orders</a>
+    </header>
+    <div class="welcome text-center mt-5">
+        <h1>Welcome to Burger Store!</h1>
+        <img class="center" src="https://i.pinimg.com/originals/2e/e7/0f/2ee70fdf94cc1e52b17fa738f1e4fd62.png" />
+        <p>Your favorite place for delicious burgers.</p>
+    </div>
+</div>

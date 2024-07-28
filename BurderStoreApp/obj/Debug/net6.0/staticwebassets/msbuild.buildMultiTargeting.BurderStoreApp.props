@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\BurderStoreApp.props" />
+</Project>

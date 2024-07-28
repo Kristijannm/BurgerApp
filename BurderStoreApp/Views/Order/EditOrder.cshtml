@@ -1,0 +1,48 @@
+﻿
+@model OrderViewModel
+
+@{
+    ViewData["Title"] = "Edit Order";
+}
+
+<h1>Edit Order</h1>
+
+<h4>Order</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="EditOrder">
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BurgerId" class="control-label">Burger</label>
+                <select asp-for="BurgerId" class="form-control" asp-items="ViewBag.BurgerId"></select>
+                <span asp-validation-for="BurgerId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Location" class="control-label"></label>
+                <input asp-for="Location" class="form-control" />
+                <span asp-validation-for="Location" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <input asp-for="IsDelivered" class="form-check-input" />
+                <label asp-for="IsDelivered" class="form-check-label"></label>
+                <span asp-validation-for="IsDelivered" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a class="btn btn-outline-primary" asp-controller="Order" asp-action="Orders">Back to Orders</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
