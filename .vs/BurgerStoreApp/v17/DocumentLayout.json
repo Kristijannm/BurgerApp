@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\models\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\models\\mappers\\ordermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\staticdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\burgerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\burgerdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\models\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\models\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\models\\domain\\burger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\models\\domain\\burger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\controllers\\burgercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\controllers\\burgercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\burgerstoreapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\burgerstoreapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\migrations\\20240728171111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\migrations\\20240728171111_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|c:\\users\\marko\\desktop\\new folder\\burgerapp\\burderstoreapp\\migrations\\20240728171817_seeddatamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0BB9B5E-DA93-43E8-8748-C4A95431D454}|BurderStoreApp\\BurgerStoreApp.csproj|solutionrelative:burderstoreapp\\migrations\\20240728171817_seeddatamigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderMapper.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Mappers\\OrderMapper.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Models\\Mappers\\OrderMapper.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Mappers\\OrderMapper.cs",
+              "RelativeToolTip": "BurderStoreApp\\Models\\Mappers\\OrderMapper.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAASwCcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:26:53.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "BurderStoreApp\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAiwGUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T12:11:48.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BurgerController.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Controllers\\BurgerController.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Controllers\\BurgerController.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Controllers\\BurgerController.cs",
+              "RelativeToolTip": "BurderStoreApp\\Controllers\\BurgerController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAADwv04AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:02:37.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BurgerStoreApp.csproj",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj",
+              "RelativeDocumentMoniker": "BurderStoreApp\\BurgerStoreApp.csproj",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj",
+              "RelativeToolTip": "BurderStoreApp\\BurgerStoreApp.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-28T16:55:38.233Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BurgerDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerDbContext.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\BurgerDbContext.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerDbContext.cs",
+              "RelativeToolTip": "BurderStoreApp\\BurgerDbContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBgAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:28:29.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Models\\Domain\\Order.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Domain\\Order.cs",
+              "RelativeToolTip": "BurderStoreApp\\Models\\Domain\\Order.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA3wBAAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:27:08.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Burger.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Domain\\Burger.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Models\\Domain\\Burger.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Models\\Domain\\Burger.cs",
+              "RelativeToolTip": "BurderStoreApp\\Models\\Domain\\Burger.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAowA0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:27:05.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaticDb.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\StaticDb.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\StaticDb.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\StaticDb.cs",
+              "RelativeToolTip": "BurderStoreApp\\StaticDb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:13:05.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Program.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Program.cs",
+              "RelativeToolTip": "BurderStoreApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T16:12:59.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20240728171111_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Migrations\\20240728171111_InitialCreate.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Migrations\\20240728171111_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Migrations\\20240728171111_InitialCreate.cs",
+              "RelativeToolTip": "BurderStoreApp\\Migrations\\20240728171111_InitialCreate.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:11:11.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20240728171817_SeedDataMigration.cs",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Migrations\\20240728171817_SeedDataMigration.cs",
+              "RelativeDocumentMoniker": "BurderStoreApp\\Migrations\\20240728171817_SeedDataMigration.cs",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\Migrations\\20240728171817_SeedDataMigration.cs",
+              "RelativeToolTip": "BurderStoreApp\\Migrations\\20240728171817_SeedDataMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-28T17:18:17.957Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "BurderStoreApp\\appsettings.json",
+              "ToolTip": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\appsettings.json",
+              "RelativeToolTip": "BurderStoreApp\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-28T16:31:58.757Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

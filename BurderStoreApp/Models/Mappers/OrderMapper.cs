@@ -1,5 +1,4 @@
-﻿using BurgerApp;
-using BurgerApp.Models.Domain;
+﻿using BurgerApp.Models.Domain;
 using BurgerStoreApp.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc.Diagnostics;
 using System.Net;
@@ -35,7 +34,6 @@ namespace BurgerStoreApp.Models.Mappers
                 Address = orderViewModel.Address,
                 Location = orderViewModel.Location,
                 IsDelivered = orderViewModel.IsDelivered,
-                Burger = StaticDb.Burgers.FirstOrDefault(x => x.Id == orderViewModel.BurgerId)
             };
             return order;
         }

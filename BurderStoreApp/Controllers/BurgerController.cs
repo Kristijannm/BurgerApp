@@ -1,49 +1,60 @@
-﻿using BurgerApp;
-using BurgerApp.Models.Domain;
+﻿using BurgerApp.Models.Domain;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace BurgerStoreApp.Controllers
 {
     public class BurgerController : Controller
     {
-        public IActionResult BurgerMenu()
+        private readonly BurgerDbContext _dbContext;
+
+        public BurgerController(BurgerDbContext context)
         {
-            List<Burger> burgers = StaticDb.Burgers;
+            _dbContext = context;
+        }
+
+        public async Task<IActionResult> BurgerMenu()
+        {
+            List<Burger> burgers = await _dbContext.Burgers.ToListAsync();
             return View(burgers);
         }
-        public IActionResult DeleteBurgerById([FromRoute] int? id)
+
+        public async Task<IActionResult> DeleteBurgerById([FromRoute] int? id)
         {
             if (id == null)
                 return View("AnErrorOccurred");
 
-            Burger burgerToDelete = StaticDb.Burgers.FirstOrDefault(x => x.Id == id);
+            Burger burgerToDelete = await _dbContext.Burgers.FindAsync(id);
 
             if (burgerToDelete == null)
                 return View("AnErrorOccurred");
 
-            StaticDb.Burgers.Remove(burgerToDelete);
+            _dbContext.Burgers.Remove(burgerToDelete);
+            await _dbContext.SaveChangesAsync();
 
             return RedirectToAction("BurgerMenu");
-
         }
-        public IActionResult EditBurger([FromRoute] int? id)
+
+        public async Task<IActionResult> EditBurger([FromRoute] int? id)
         {
             if (id == null)
                 return View("AnErrorOccurred");
 
-            Burger burgerToEdit = StaticDb.Burgers.FirstOrDefault(x => x.Id == id);
+            Burger burgerToEdit = await _dbContext.Burgers.FindAsync(id);
 
             if (burgerToEdit == null)
                 return View("AnErrorOccurred");
 
             return View(burgerToEdit);
         }
+
         [HttpPost]
-        public IActionResult EditBurger([FromForm] Burger burger)
+        public async Task<IActionResult> EditBurger([FromForm] Burger burger)
         {
             if (!ModelState.IsValid)
                 return View(burger);
-            Burger existingBurger = StaticDb.Burgers.FirstOrDefault(x => x.Id == burger.Id);
+
+            var existingBurger = await _dbContext.Burgers.FindAsync(burger.Id);
             if (existingBurger == null)
                 return RedirectToAction("BurgerMenu");
 
@@ -53,21 +64,25 @@ namespace BurgerStoreApp.Controllers
             existingBurger.IsVegan = burger.IsVegan;
             existingBurger.HasFries = burger.HasFries;
 
-            return RedirectToAction("BurgerMenu");
+            _dbContext.Burgers.Update(existingBurger);
+            await _dbContext.SaveChangesAsync();
 
+            return RedirectToAction("BurgerMenu");
         }
+
         public IActionResult CreateBurger()
         {
             return View(new Burger { });
         }
+
         [HttpPost]
-        public IActionResult CreateBurger([FromForm] Burger burger)
+        public async Task<IActionResult> CreateBurger([FromForm] Burger burger)
         {
             if (!ModelState.IsValid)
                 return View(burger);
 
-            burger.Id = (StaticDb.Burgers.LastOrDefault()?.Id ?? 0)+ 1;
-            StaticDb.Burgers.Add(burger);
+            _dbContext.Burgers.Add(burger);
+            await _dbContext.SaveChangesAsync();
 
             return RedirectToAction("BurgerMenu");
         }

@@ -9,15 +9,21 @@
         public bool IsVegan { get; set; }
         public bool HasFries { get; set; }
 
-        public Burger(int id,string name,int price,bool isVegetarian,bool isVegan,bool hasFries) 
+        public ICollection<Order> Orders { get; set; }
+
+        public Burger(string name, int price, bool isVegetarian, bool isVegan, bool hasFries)
         {
-            Id = id;
             Name = name;
             Price = price;
             IsVegan = isVegan;
             IsVegetarian = isVegetarian;
             HasFries = hasFries;
+            Orders = new List<Order>();
         }
-        public Burger() { }
+
+        public Burger()
+        {
+            Orders = new List<Order>();
+        }
     }
 }

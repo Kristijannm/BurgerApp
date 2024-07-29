@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\marko\\Desktop\\Repository\\DBD-D\\ASP-NET Core Homework\\BurderStoreApp\\BurderStoreApp\\BurgerStoreApp.csproj": {}
+    "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\marko\\Desktop\\Repository\\DBD-D\\ASP-NET Core Homework\\BurderStoreApp\\BurderStoreApp\\BurgerStoreApp.csproj": {
+    "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\marko\\Desktop\\Repository\\DBD-D\\ASP-NET Core Homework\\BurderStoreApp\\BurderStoreApp\\BurgerStoreApp.csproj",
+        "projectUniqueName": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj",
         "projectName": "BurgerStoreApp",
-        "projectPath": "C:\\Users\\marko\\Desktop\\Repository\\DBD-D\\ASP-NET Core Homework\\BurderStoreApp\\BurderStoreApp\\BurgerStoreApp.csproj",
+        "projectPath": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\BurgerStoreApp.csproj",
         "packagesPath": "C:\\Users\\marko\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\marko\\Desktop\\Repository\\DBD-D\\ASP-NET Core Homework\\BurderStoreApp\\BurderStoreApp\\obj\\",
+        "outputPath": "C:\\Users\\marko\\Desktop\\New folder\\BurgerApp\\BurderStoreApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\marko\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
